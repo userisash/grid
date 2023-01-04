@@ -1,0 +1,33 @@
+.item{
+    padding: rem3;
+    border:1px #ccc solid ;
+    background: #f4f4f4;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 550px 550px ;
+    grid-template-rows: 50px 50px 50px;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+#item1{
+    background-color: yellow;
+}
+#item2{
+    background-color: green;
+}
+#item3{
+    background-color: red;
+}
+#item4{
+    background-color: blue;
+}
+#item5{
+    background-color: black;
+    color: #fff;
+    grid-column: span 2;
+}
