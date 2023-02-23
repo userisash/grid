@@ -1,0 +1,20 @@
+.header{
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav > ul{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.nav > ul > li{
+  margin-left: 10px;
+}
